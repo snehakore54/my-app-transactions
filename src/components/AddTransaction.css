@@ -1,0 +1,120 @@
+/* src/components/AddTransaction.css */
+.add-transaction {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #007bff;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+label span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="button"] {
+    background-color: #6c757d;
+    color: white;
+}
+
+button[type="button"]:hover {
+    background-color: #5a6268;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    input, select {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .add-transaction {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    input, select {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .add-transaction {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+        display: block;
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    input, select {
+        font-size: 12px;
+    }
+}
